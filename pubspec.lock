@@ -116,11 +116,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
+=======
+>>>>>>> a0ee5c087597dc8be21665a9f0169b3f9a9b65da
   js:
     dependency: transitive
     description:
