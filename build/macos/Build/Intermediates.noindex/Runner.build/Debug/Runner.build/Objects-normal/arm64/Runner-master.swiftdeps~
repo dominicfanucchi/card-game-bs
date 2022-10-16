@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "9a1a92567da5ba281853eeb8aa848932366c22d4c906cd6a3183548b7eafb970"
+build_start_time: [1665896396, 763082027]
+build_end_time: [1665896399, 775693893]
+inputs:
+  "/Users/edgarrosales/hackathon/card-game-bs/macos/Flutter/GeneratedPluginRegistrant.swift": [1665896392, 990328550]
+  "/Users/edgarrosales/hackathon/card-game-bs/macos/Runner/AppDelegate.swift": [1665889959, 676625728]
+  "/Users/edgarrosales/hackathon/card-game-bs/macos/Runner/MainFlutterWindow.swift": [1665889959, 679500579]
