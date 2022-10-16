@@ -1,3 +1,4 @@
+import 'package:bullshit/responsive/responsive.dart';
 import 'package:flutter/material.dart';
 import 'package:bullshit/widgets/custom_button.dart';
 
@@ -7,19 +8,21 @@ class MainMenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          CustomButton(
-            onTap: () {},
-            text: 'Create Room',
-          ),
-          const SizedBox(height: 20),
-          CustomButton(
-            onTap: () {},
-            text: 'Join Room',
-          ),
-        ],
+      body: Responsive(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CustomButton(
+              onTap: () {},
+              text: 'Create Room',
+            ),
+            const SizedBox(height: 20),
+            CustomButton(
+              onTap: () {},
+              text: 'Join Room',
+            ),
+          ],
+        ),
       ),
     );
   }
