@@ -1,0 +1,4 @@
+#Sun Oct 16 00:13:40 PDT 2022
+base.0=C\:\\Users\\dcasas1\\Documents\\hackathon\\card-game-bs\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
