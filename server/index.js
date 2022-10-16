@@ -19,6 +19,12 @@ app.use(express.json());
 const DB = "";
 // PROMISE in JS == FUTURE in Dart
 
+//socket.io connection
+
+io.on('connection', (socket) => {
+    console.log('connected!');
+});
+
 server.listen(port, '0.0.0.0', () => {
     console.log(`Server started and running on ${port}`);
 });
