@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "704984036602",
+    "project_id": "calhacks-2022-e619e",
+    "storage_bucket": "calhacks-2022-e619e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704984036602:android:ea847ebb18c34d87438543",
+        "android_client_info": {
+          "package_name": "com.example.bullshit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704984036602-hrboi28cm45nq72r5re21j2ohj05lvia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXN6_hyynzhYcjyQDdxk4P7ZEzCsIrBm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704984036602-hrboi28cm45nq72r5re21j2ohj05lvia.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "704984036602-tqobtmf0polum17r4abqjk20vlttltrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bullshit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

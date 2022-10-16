@@ -10,13 +10,6 @@ const firebase = require('firebase');
 const app = express();
 const port = process.env.PORT || 3000;
 var server = http.createServer(app);
-
-var io = require('socket.io')(server);
-
-// client -> middleware -> server
-// middleware
-app.use(express.json());
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBL2lJQ88kZgDNx8wGJkFEUmlSsTqeIjJ0",
@@ -26,13 +19,17 @@ const firebaseConfig = {
     messagingSenderId: "704984036602",
     appId: "1:704984036602:web:2ed97641e4501dba438543"
 };
+var io = require('socket.io')(server);
+
+// client -> middleware -> server
+// middleware
+app.use(express.json());
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+firebase.connect()
 
 
-//const DB = firebase.DB();
-// PROMISE in JS == FUTURE in Dart
 server.listen(port, '0.0.0.0', () => {
     console.log(`Server started and running on ${port}`);
 });
