@@ -1,8 +1,8 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/usr/local/Caskroom/flutter/3.3.4/flutter
-FLUTTER_APPLICATION_PATH=/Users/fanucchi/Desktop/Dart/Flutter/calhacks9.0/bullshit
+FLUTTER_ROOT=/opt/homebrew/Caskroom/flutter/3.3.4/flutter
+FLUTTER_APPLICATION_PATH=/Users/edgarrosales/hackathon/card-game-bs
 COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=/Users/fanucchi/Desktop/Dart/Flutter/calhacks9.0/bullshit/lib/main.dart
+FLUTTER_TARGET=/Users/edgarrosales/hackathon/card-game-bs/lib/main.dart
 FLUTTER_BUILD_DIR=build
 FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_BUILD_NUMBER=1
@@ -12,4 +12,4 @@ DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=/Users/fanucchi/Desktop/Dart/Flutter/calhacks9.0/bullshit/.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/edgarrosales/hackathon/card-game-bs/.dart_tool/package_config.json
